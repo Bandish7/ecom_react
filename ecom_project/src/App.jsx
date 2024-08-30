@@ -1,4 +1,5 @@
 import Categories from "./components/Categories"
+import CategoryItem from "./components/CategoryItem"
 
 
 function App() {
