@@ -1,8 +1,12 @@
-# React + Vite
+# Mero Dokan - Eutai Chhana Muni 
+React E-Commerce App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Designed and Developed by: Bandish Basnet
 
-Currently, two official plugins are available:
+Tools Used:
+* React
+* Vite
+* Tailwind
+* Vercel
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Visit app on this link https://merodokan-nine.vercel.app/

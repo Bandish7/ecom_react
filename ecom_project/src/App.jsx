@@ -1,3 +1,4 @@
+import Categories from "./components/Categories"
 
 
 function App() {
@@ -5,7 +6,8 @@ function App() {
 
   return (
     <div>
-      <h2>Welcome to mero dokan</h2>
+      <h2>Welcome to mero dokan </h2>
+      <Categories title="Category" linkUrl="#" linkText="Browse by categories" />
     </div>
   )
 }
