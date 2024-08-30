@@ -4,7 +4,9 @@ function App() {
   
 
   return (
-    <div></div>
+    <div>
+      <h2>Welcome to mero dokan</h2>
+    </div>
   )
 }
 
