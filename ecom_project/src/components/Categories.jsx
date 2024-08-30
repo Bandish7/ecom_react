@@ -31,7 +31,7 @@ function Categories(props) {
             </div>
 
             <div className="mt-6 px-4 sm:hidden">
-            <CategoriesLink linkText={props.linkText} linkUrl={props.linkUrl}/>
+            <CategoriesLink isMobile={true} linkText={props.linkText} linkUrl={props.linkUrl}/>
             </div>
         </section>
     );
