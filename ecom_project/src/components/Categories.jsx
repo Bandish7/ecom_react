@@ -21,7 +21,7 @@ function Categories(props) {
                         <div className="absolute flex space-x-8 px-4 sm:px-6 lg:px-8 xl:relative xl:grid xl:grid-cols-5 xl:gap-x-8 xl:space-x-0 xl:px-0">
                            {
                             productData.categories.map(item =>(
-                                <CategoryItem key={item.id} category={item.category} image={item.image} />
+                                <CategoryItem key={item.id} slug={item.id} category={item.category} image={item.image} />
 
                             ))
                            }
