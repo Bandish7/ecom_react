@@ -18,7 +18,9 @@ export default function Products() {
   const currentProduct = products.find(item => item.id == product);
   
   function addToCart() {
-    const cartValue = cookies.cart ? JSON.parse(cookies.cart):[];
+    const cartValue = cookies.cart ? cookies.cart:[];
+   const existingItem cartValue.find(item => (item.category === currentCategory.id) &&  (item.product === currentProduct.id));
+   
     setCookie('cart', JSON.stringify([...cartValue,{category: currentCategory.id ,product:currentProduct.id}]));
     navigate("/cart");
    

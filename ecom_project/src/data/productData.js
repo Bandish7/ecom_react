@@ -71,6 +71,7 @@ const productData = {
                     reviewCount:234, description:"A classic jean jacket that's stood the test of time. A blank canvas for self-expression. A versatile essential that'll complete any ensemble", rating : 4,
                     id: 1,
                     name: "Gazman",
+                    inStock: true,
                     href: "#",
                     price: "$81.75",
                     offer: "SAVE 30%",
@@ -115,6 +116,7 @@ const productData = {
                     reviewCount:234, description:"A classic jean jacket that's stood the test of time. A blank canvas for self-expression. A versatile essential that'll complete any ensemble", rating : 4,
                     id: 5,
                     name: "Blaq",
+                    inStock: false,
                     href: "#",
                     price: "$87.20",
                     offer: "SAVE 30%",
@@ -199,6 +201,7 @@ const productData = {
                     price: "$17.49",
                     offer: "SAVE 30%",
                     color: "Pink",
+                    inStock : true,
                     imageAlt: "",
                     imageSrc: "https://myer-media.com.au/wcsstore/MyerCatalogAssetStore/images/30/309/8344/102/2/172382260/172382260_1_720x928.webp?w=1920&q=75"
                 },
